@@ -1,7 +1,7 @@
 encoding: utf-8
 markdown: redcarpet
-baseurl: /jekyll-course-template
-url: p2pu.github.io/jekyll-course-template/
+baseurl: /
+url: dajbelshaw.github.io/
 permalink: /:title/
-ga_tracking_code: UA-5757664-17
-disqus_shortname: jekyllcoursetemplate
+ga_tracking_code: 
+disqus_shortname: edtech
