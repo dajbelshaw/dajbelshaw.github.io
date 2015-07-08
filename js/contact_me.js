@@ -6,10 +6,14 @@ $(function() {
             // additional error messages or events
         },
         submitSuccess: function($form, event) {
+<<<<<<< HEAD
             // Prevent spam click and default submit behaviour
             $("#btnSubmit").attr("disabled", true);
             event.preventDefault();
             
+=======
+            event.preventDefault(); // prevent default submit behaviour
+>>>>>>> master
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
@@ -31,8 +35,12 @@ $(function() {
                 },
                 cache: false,
                 success: function() {
+<<<<<<< HEAD
                     // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
+=======
+                    // Success message
+>>>>>>> master
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
@@ -67,7 +75,12 @@ $(function() {
     });
 });
 
+<<<<<<< HEAD
 // When clicking on Full hide fail/success boxes
+=======
+
+/*When clicking on Full hide fail/success boxes */
+>>>>>>> master
 $('#name').focus(function() {
     $('#success').html('');
 });
