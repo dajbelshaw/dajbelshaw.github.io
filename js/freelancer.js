@@ -6,11 +6,7 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-<<<<<<< HEAD
-    $('body').on('click', '.page-scroll a', function(event) {
-=======
     $('.page-scroll a').bind('click', function(event) {
->>>>>>> master
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
@@ -38,8 +34,4 @@ $('body').scrollspy({
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> master
