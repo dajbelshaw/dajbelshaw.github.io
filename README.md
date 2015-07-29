@@ -1,1 +1,0 @@
-This is the repository that will (eventually) run dougbelshaw.com
